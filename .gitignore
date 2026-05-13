@@ -1,0 +1,32 @@
+# Environment variables (Juda muhim, tokenlar GitHub ga ketib qolmasligi uchun)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files (PDF generatsiyasi va boshqalar uchun)
+temp/
+*.pdf
+*.log
+
+# IDE / OS fayllari
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
+__pycache__/
+*.pdf
+
+# Agent/AI generated temporary files (agar bo'lsa)
+scratch/
+temp_*.py
